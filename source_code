@@ -1,0 +1,27 @@
+--> Before doing this project you have to check whether the library langdetect " Language Detector " is installed or not .
+To check here are some commands can check through Command lines, jupyter notebook.
+
+  Through Command Lines in Windows: 
+
+    python -m pip show numpy
+
+  Through Jupyter Notebook:
+
+    conda list langdetect
+
+If Langdetect is Not Installed
+
+Steps to Install Langdetect through Command Line:
+  pip install langdetect
+  
+  and Click Enter.
+
+Library is installed 
+  
+-->
+
+# Source Code
+
+from langdetect import detect
+t=input("Enter any text in any language: ")
+print(detect(t))
